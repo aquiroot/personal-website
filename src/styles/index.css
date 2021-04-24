@@ -1,0 +1,17 @@
+h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+span {
+  color: #e8304a;
+}
+
+p {
+  font-weight: 300;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
