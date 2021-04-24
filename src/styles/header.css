@@ -1,0 +1,30 @@
+h1 {
+  font-size: 2.5rem;
+  margin-left: 10px;
+  color: #e8304a;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar__menu {
+  display: flex;
+}
+
+.navBar__menu h4 {
+  margin: 10px;
+  transition: 0.3 ease all;
+}
+
+.navBar__menu h4:hover {
+  color: #e8304a;
+}
