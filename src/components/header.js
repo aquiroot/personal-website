@@ -16,13 +16,13 @@ const Header = ({ siteTitle }) => (
 
       <nav className="navBar__menu">
         <Link to="/about">
-          <h4>About me</h4>
+          <h4>Sobre mi</h4>
         </Link>
         <Link to="/projects">
-          <h4>Proyects</h4>
+          <h4>Proyectos</h4>
         </Link>
         <Link to="/contact">
-          <h4>Contact</h4>
+          <h4>Contacto</h4>
         </Link>
       </nav>
     </div>

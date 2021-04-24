@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Damian Colaneri`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: ``,
+    description: `Mu personal website.`,
+    author: `@aquiroot`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,5 +16,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `ion-website`,
+        short_name: `ion`,
+        start_url: `/`,
+        background_color: `#1f2022`,
+        theme_color: `#e8304a`,
+        display: `minimal-ui`,
+        icon: `src/images/user.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 }

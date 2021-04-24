@@ -8,9 +8,10 @@ span {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
 }
 .content {
+  width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;

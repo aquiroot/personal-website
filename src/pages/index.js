@@ -11,14 +11,17 @@ const IndexPage = () => (
     <div className="content">
       <StaticImage
         src="../images/Programming-bro.svg"
-        width={400}
+        width={800}
         alt="programing"
       />
       <div>
         <h3>
-          Hi! I'm <span>Damian Colaneri</span>
+          Hola! soy <span>Damian Colaneri</span>
         </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>
+          Analista de sistemas, apasionado por la tecnologia. Mas de 15 años de
+          experiencia en administracion de servidores, redes, AWS, y desarrollo.
+        </p>
       </div>
     </div>
   </Layout>
