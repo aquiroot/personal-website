@@ -16,7 +16,7 @@ const IndexPage = () => (
       />
       <div>
         <h3>
-          Hola! soy <span>Damian Colaneri</span>
+          Hola! Soy <span>Damian Colaneri.</span>
         </h3>
         <p>
           Analista de sistemas, apasionado por la tecnologia. Mas de 15 años de

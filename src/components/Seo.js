@@ -24,7 +24,7 @@ function Seo({ description, lang, meta, title }) {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang: `es`,
       }}
       title={`${title} | ION`}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
