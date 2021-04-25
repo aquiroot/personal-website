@@ -24,7 +24,7 @@ h1 {
 
 .navBar__menu h4 {
   margin: 10px;
-  transition: 0.3 ease all;
+  transition: all 0.3s ease;
 }
 
 .navBar__menu h4:hover {

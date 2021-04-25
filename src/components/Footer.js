@@ -21,6 +21,9 @@ export const Footer = () => {
       >
         <StaticImage src="../images/github.svg" width={34} alt="github" />
       </a>
+      <a href="https://storyset.com/" rel="noreferrer" target="_blank">
+        <StaticImage src="../images/storyset.svg" width={80} alt="storyset" />
+      </a>
     </div>
   )
 }
