@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap");
 
 * {
   color: white;
@@ -19,10 +19,15 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-family: "Raleway", sans-serif;
+  background-image: url("../images/blob1.svg");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position-x: 235px;
+  background-position-y: center;
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
   min-height: 97vh;
   margin: 20px 0 0 0;
   display: flex;

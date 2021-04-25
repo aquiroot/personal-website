@@ -19,8 +19,13 @@ const IndexPage = () => (
           Hola! Soy <span>Damian Colaneri.</span>
         </h3>
         <p>
-          Analista de sistemas, apasionado por la tecnologia. Mas de 15 años de
-          experiencia en administracion de servidores, redes, AWS, y desarrollo.
+          Creé ION para compartir mi experiencia y aprender más en el camino.
+          Estoy interesado en proyectos open source y todo lo relacionado con el
+          trabajo en comunidad.
+        </p>
+        <p>
+          Seguro te estarás preguntando ¿porqué <span>ION</span>? Bueno, porque
+          es corto, fácil de recordar y estaba disponible! 🤟️
         </p>
       </div>
     </div>
