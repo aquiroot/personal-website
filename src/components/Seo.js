@@ -26,7 +26,7 @@ function Seo({ description, lang, meta, title }) {
       htmlAttributes={{
         lang: `es`,
       }}
-      title={`${title} | ION`}
+      title={`${title}`}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
@@ -67,7 +67,7 @@ function Seo({ description, lang, meta, title }) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `es`,
   meta: [],
   description: ``,
 }
