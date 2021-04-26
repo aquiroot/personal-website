@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    description: `Mu personal website.`,
+    title: `ION`,
+    description: `My personal website.`,
     author: `@aquiroot`,
   },
   plugins: [
@@ -26,6 +26,12 @@ module.exports = {
         theme_color: `#e8304a`,
         display: `minimal-ui`,
         icon: `src/images/user.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        basePath: `/blog`,
       },
     },
   ],

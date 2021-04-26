@@ -22,7 +22,7 @@ body {
   background-image: url("../images/blob1.svg");
   background-size: 450px;
   background-repeat: no-repeat;
-  background-position-x: 235px;
+  background-position-x: 555px;
   background-position-y: center;
 }
 
@@ -34,4 +34,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1281px) {
+  body {
+    background-position-x: 235px;
+  }
 }
