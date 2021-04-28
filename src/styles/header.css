@@ -30,3 +30,7 @@ h1 {
 .navBar__menu h4:hover {
   color: #e8304a;
 }
+
+.navBar__menu h4:active {
+  color: #e8304a;
+}

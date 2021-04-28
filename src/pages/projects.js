@@ -5,8 +5,8 @@ import Seo from "../components/Seo"
 const Projects = () => {
   return (
     <Layout>
-      <Seo title="Projects" />
-      <h3>projects</h3>
+      <Seo title="Proyectos" />
+      <h2>Proyectos</h2>
     </Layout>
   )
 }

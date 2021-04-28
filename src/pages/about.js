@@ -5,8 +5,9 @@ import Seo from "../components/Seo"
 const About = () => {
   return (
     <Layout>
-      <Seo title="About" />
-      <h2>about me</h2>
+      <Seo title="Sobre mi" />
+      <h2>Sobre mi</h2>
+      <p>Soy Damian Colaneri, emprendedor de tecnología.</p>
     </Layout>
   )
 }
